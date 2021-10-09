@@ -1,0 +1,206 @@
+@import url('https://fonts.google.com/specimen/Roboto?query=roboto#standard-styles');
+@import url(/normalize.css);
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    display: block;
+}
+
+div {
+    display: block;
+}
+
+.main_container {
+    width: 1219px;
+    margin: auto;
+    padding: 0 55px 0 55px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #007765;
+    line-height: 84px;
+}
+
+header .main_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    line-height: normal;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.mainHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 403px;
+    background: url('/image.png');
+}
+
+.mainHeader h1 {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 72px;
+    line-height: 84.38px;
+    color: #fff;
+}
+
+.theProblem {
+    padding: 48px 0 92px 0;
+}
+
+.TheProblem_text h1 {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 64px;
+    line-height: 75px;
+    justify-content: center;
+    text-align: center;
+    color: #007765;
+}
+
+.TheProblem_text {
+    justify-content: center;
+    text-align: left;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 37.5px;
+    padding: 0 55px 0 55px;
+}
+
+.quote_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 483px;
+    background: url('/image-1.png');
+}
+
+.quote {
+    color: #fff;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56.25px;
+    text-align: center;
+}
+
+.PPC_logo {
+    float: left;
+    margin-right: 48px;
+}
+
+.introducing {
+    background-color: #fff;
+    padding: 48px 0 92px 0;
+}
+
+.intro h1 {
+    color: #007765;
+    justify-content: center;
+    text-align: center;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+.intro p {
+    text-align: left;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 37.5px;
+}
+
+.team h1 {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    justify-content: center;
+    color: #007765;
+}
+
+.team h2 {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28.13px;
+    text-align: center;
+    color: #007765;
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+
+em {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 21.09px;
+    text-align: center;
+}
+
+.team_box {
+    padding-top: 58px;
+    padding-bottom: 84px;
+}
+
+.stuff {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.photo  {
+    width: 350px;
+    height: 283px;
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+footer {
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 176px;
+    width: auto;
+}
+
+footer p {
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21.09px;
+    width: 540px;
+}
